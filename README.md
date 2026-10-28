@@ -1,35 +1,25 @@
-# 📚 Media-Zefanya v2 (Buku)
+# 📚 Media-Zefanya v2 (Tema Indra & Teks Bacaan Buku)
 
-> *Halo-halo! Selamat datang di aplikasi katalog buku paling hits! 📖✨ Dibuat spesial buat ngerjain tugas perpustakaan, nyatet buku favorit, dan bikin dunia literasi makin seru dan warna-warni!*
+> *Halo-halo anak hebat! 📖✨ Selamat datang di aplikasi latihan memetakan informasi dari bacaan buku cerita bersama Bu Guru Zefanya!*
 
 ---
 
 ## 🌟 Fitur-Fitur Seru di Dalamnya
 
-- 📖 **Katalog Buku Pintar** - Tambah, edit, hapus, dan intip koleksi buku perpustakaan lengkap dengan pengarang dan kategorinya!
-- 🗂️ **Filter Kategori Kece** - Mau cari buku pelajaran, novel, atau ensiklopedia? Tinggal filter, langsung ketemu bukunya dalam sedetik.
-- 🔐 **Mode Guru (Secret Password)** - Ada area khusus admin/guru yang dipagari sandi (`zefanya123`). Aman dari tangan-tangan jahil iseng!
-- ☁️ **Nyambung ke Supabase** - Data buku aman sentosa di database cloud Supabase (`dytcoemthbngxoamoetr`) pada tabel `buku`.
+- 📖 **Pendataan Judul & Isi Buku** - Tambah, edit, dan catat informasi penting dari buku bacaan perpustakaan kelas!
+- 🗂️ **Filter Kategori Kece** - Pilih kategori buku cerita atau pengetahuan, lalu temukan datanya dalam hitungan detik.
+- 🔐 **Mode Guru (Secret Password)** - Halaman khusus admin/guru dengan sandi rahasia (`zefanya123`) untuk menguji pemahaman murid.
+- ☁️ **Nyambung ke Supabase** - Data tersimpan rapi di cloud Supabase pada tabel `buku`.
 
 ---
 
-## 🛠️ Tech Stack & Alat Perang
+## 📊 Perbandingan Tema Aplikasi Belajar Kita (v1, v2, v3)
 
-- **Frontend:** HTML, CSS, JavaScript / Modern Framework
-- **Backend / Database:** Supabase PostgreSQL (`dytcoemthbngxoamoetr`)
-- **Server Lokal:** PM2 Process Manager (Jalan terus 24 jam di port `8081`)
-
----
-
-## 📊 Perbandingan Versi Media-Zefanya (v1, v2, v3)
-
-Biar nggak bingung bedanya apa aja, yuk intip tabel perbandingan gaul di bawah ini:
-
-| Versi | Topik Aplikasi | Tabel Supabase | Port PM2 | Repository GitHub | Penjelasan Singkat |
-|---|---|---|---|---|---|
-| **v1** 🎓 | Skripsi | `skripsi` | `8080` | `Carelyk/Media-Zefanya` | Buat ngurusin judul skripsi dan nilai mahasiswa |
-| **v2** 📚 | Buku | `buku` | `8081` | `Carelyk/Media-Zefanya-v2` | Buat inventaris perpustakaan dan data buku bacaan |
-| **v3** 🌳 | Taman | `taman` | `8082` | `Carelyk/Media-Zefanya-v3` | Buat pendataan tanaman dan fasilitas taman kota |
+| Versi | Tema / Objek Latihan Indra | Tabel Database | Port Server |
+|---|---|---|---|
+| **v1** 👁️ | Tema Pengamatan Objek & Tugas Kelas | `skripsi` | `8080` |
+| **v2** 📚 | Tema Pengamatan Buku & Teks Bacaan | `buku` | `8081` |
+| **v3** 🌳 | Tema Pengamatan Lingkungan & Tanaman | `taman` | `8082` |
 
 ---
-*Dibuat dengan penuh semangat dan secangkir kopi ☕ oleh Tim Pengembang.*
+*Dibuat khusus untuk Kelas 3 SD bimbingan Bu Guru Zefanya! 🍎✏️*
